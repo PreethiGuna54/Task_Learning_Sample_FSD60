@@ -1,3 +1,18 @@
 git config --list
 git config --global user.name "PreethiGuna54"
 git config --global user.email "Preethiguna54@gmail.com"
+
+
+
+echo "# Task_Learning_Sample_FSD60" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PreethiGuna54/Task_Learning_Sample_FSD60.git
+git push -u origin main
+
+//update
+git add .
+git commit -m "Second Commit"
+git push
